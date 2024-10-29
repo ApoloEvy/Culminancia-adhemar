@@ -1,3 +1,5 @@
+Esquema monocromático da cor #0c181c
+
 #000000 - mais escuro
 
 #04090b
