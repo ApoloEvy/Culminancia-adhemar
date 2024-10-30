@@ -1,1 +1,36 @@
-
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        color: #fff;
+      }
+body{
+    background-color: #323d42;
+    font-family: "Roboto Slab";
+}
+.Adhemar{
+    font-size: 7;
+    font-family: "Roboto Slab";
+}
+header{
+    background-color: #192428;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    margin: 2px;
+}
+li{
+list-style: none;
+padding: 7px;
+}
+a{
+   text-decoration: none;
+}
+a:hover{
+    font-size: 1.3rem;
+    transition: 0.5s;
+}
