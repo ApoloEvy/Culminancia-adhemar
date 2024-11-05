@@ -221,7 +221,7 @@ footer{
     }
     .year-container {
         position: absolute;
-        left: 14%;
+        left: 100%;
         font-size: 1rem;
         top: 25%;
         transform: translate(-50%, -50%);
