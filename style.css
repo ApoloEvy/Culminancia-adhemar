@@ -215,7 +215,14 @@ footer{
 }
 
 /* Resposividade de TODA TELA INICIAL*/
-@media (max-width: 768px) {
+@media (max-width: 600px) {
+  .year-container {
+      font-size: 20px; /* Ajusta o tamanho da fonte para telas pequenas */
+  }
+  
+  .grupo_de_itinerários {
+      font-size: 16px; /* Reduz o tamanho da fonte dos itinerários */
+  }
     .introdução {
         font-size: 2rem;
     }
