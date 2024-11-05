@@ -216,44 +216,41 @@ footer{
 
 /* Resposividade de TODA TELA INICIAL*/
 @media (max-width: 768px) {
+    body, html {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh; /* Centraliza verticalmente */
+        text-align: center; /* Centraliza o texto */
+    }
+
     .introducao {
         font-size: 2rem;
-        text-align: center;
     }
 
     .year-container {
-        position: relative;
-        width: 100%;
-        max-width: 9rem;
-        height: auto;
-        margin: 0 auto; /* Centraliza horizontalmente */
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
-        gap: 0.5rem; /* Espaço entre os elementos */
+        gap: 0.5rem;
+        max-width: 90vw; /* Limita a largura */
     }
 
     .year-container h1 {
         font-family: Bebas, sans-serif;
         font-weight: 400;
         font-size: 6.5rem;
-        line-height: 1;
-        text-align: center;
-        flex: 1 1 100%; /* Ocupa a largura total no flex */
+        margin: 0;
     }
 
     .biotec {
         font-size: 0.6rem;
-        text-align: center;
-        margin-top: 1rem;
     }
 
     .biotecnologia_texto {
         font-size: 1.8rem;
-        text-align: center;
-        margin-top: 1rem;
     }
 }
-
-   
