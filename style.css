@@ -215,71 +215,50 @@ footer{
 }
 
 /* Resposividade de TODA TELA INICIAL*/
-@media (max-width: 600px) {
-  .year-container {
-      font-size: 20px; /* Ajusta o tamanho da fonte para telas pequenas */
-  }
-  
-  .grupo_de_itinerários {
-      font-size: 16px; /* Reduz o tamanho da fonte dos itinerários */
-  }
-    .introdução {
+@media (max-width: 768px) {
+    .introducao {
         font-size: 2rem;
+        text-align: center;
     }
+
     .year-container {
-        position: absolute;
-        left: 22.5%;
-        font-size: 1rem;
-        top: 25%;
+        position: relative;
+        left: 50%;
+        top: 50%;
         transform: translate(-50%, -50%);
         width: 9rem;
         height: 9.5rem;
-      }
-      
-      .year-container h1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .year-container h1 {
         font-family: Bebas, sans-serif;
         font-weight: 400;
-        position: absolute;
         font-size: 10rem;
-      }
-      
-      .year-container h1:nth-of-type(1) {
-        top: 22%;
+        text-align: center;
+        line-height: 1;
+    }
+
+    .year-container h1:nth-of-type(1),
+    .year-container h1:nth-of-type(2),
+    .year-container h1:nth-of-type(3),
+    .year-container h1:nth-of-type(4),
+    .year-container h1:nth-of-type(5),
+    .year-container h1:nth-of-type(6),
+    .year-container h1:nth-of-type(7) {
         font-size: 6.5rem;
-        right: 50%;
-      }
-      
-      .year-container h1:nth-of-type(2) {
-         top: 22%;
-         font-size: 6.5rem;
-          left: 49%;
-       
-      }
-      
-      .year-container h1:nth-of-type(3) {
-        top: 22%;
-        font-size: 6.5rem;
-        left: 88%;
-      }
-      
-      .year-container h1:nth-of-type(4) {
-        left: 125%;
-        font-size: 6.5rem;
-        bottom: 0%;
-      }
-      .year-container h1:nth-of-type(5) {
-          left: 165%;
-          font-size: 6.5rem;
-          bottom: 0%;
-        }
-        .year-container h1:nth-of-type(6) {
-          left: 225%;
-          font-size: 6.5rem;
-          bottom: 0%;
-        }
-        .year-container h1:nth-of-type(7) {
-          left: 265%;
-          font-size: 6.5rem;
-          bottom: 0%;
-        }
+    }
+
+    .biotec {
+        font-size: 0.6rem;
+        text-align: center;
+    }
+
+    .biotecnologia_texto {
+        font-size: 1.8rem;
+        text-align: center;
+    }
 }
