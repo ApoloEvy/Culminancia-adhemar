@@ -231,6 +231,9 @@ footer{
    .imagemBio{
      width: 90%;
    }
+   .imagemBio:hover{
+    width: 91%;
+   }
 }
 a:hover{
   font-size: 0.7rem;
