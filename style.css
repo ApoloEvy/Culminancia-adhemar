@@ -229,10 +229,13 @@ footer{
      margin-top: 15rem;
    }
 }
+    a:hover{
+    font-size: 0.7rem;
+    }
     .biotec {
         font-size: 0.6rem;
     }
 
     .biotecnologia_texto {
-        font-size: 1.8rem;
+        font-size: 1.6rem;
     }
