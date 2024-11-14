@@ -77,6 +77,9 @@ a {
   overflow-y: auto;
   perspective: 300px;
 }
+.nomeadhemar{
+display: none;
+}
 
 .parallax__group {
   position: relative;
