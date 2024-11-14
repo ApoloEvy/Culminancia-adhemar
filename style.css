@@ -221,17 +221,20 @@ footer{
    }
    
   .textoAd{
-    font-size: 3rem;
+    font-size: 4rem;
    }
    .nomeadhemar{
      display: flex;
      justify-content: center;
-     margin-top: 15rem;
+     margin-top:18rem;
+   }
+   .imagemBio{
+     width: 90%;
    }
 }
-    a:hover{
-    font-size: 0.7rem;
-    }
+a:hover{
+  font-size: 0.7rem;
+}
     .biotec {
         font-size: 0.6rem;
     }
