@@ -1,13 +1,11 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    color: #fff;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #fff;
+}
 
-html,
-body {
-
+html, body {
   width: 100%;
   height: 100%;
   color: #fff;
@@ -15,137 +13,184 @@ body {
   font-family: Montserrat, Arial, Helvetica, sans-serif;
   font-weight: 700;
 }
-.Adhemar{
-    font-size: 7;
-    font-family: "Roboto Slab";
-    }
-    header{
-    background-color: #192428;
-    display: flex;
-    align-items: center;
-    padding: 20px;
-    justify-content: space-between;
-    }
-    ul{
-    display: flex;
-    margin: 2px;
-    }
-    li{
-    list-style: none;
-    padding: 5px;
-    }
-    a{
-    text-decoration: none;
-    }
-    a:hover{
-    font-size: 1.3rem;
-    transition: 0.5s;
-    }
+
+.Adhemar {
+  font-size: 7;
+  font-family: "Roboto Slab";
+}
+
+header {
+  background-color: #192428;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+  gap: 10px;
+}
+
+li {
+  list-style: none;
+}
 
 a {
   text-decoration: none;
   color: #fff;
 }
-a{
-    text-decoration: none;
-    }
-    a:hover{
-    font-size: 1.3rem;
-    transition: 0.5s;
-    }
-.grupo1{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin-top: 100px;
-    font-size: 2rem;
+
+a:hover {
+  font-size: 1.3rem;
+  transition: 0.5s;
 }
-.titulo1{
-  margin-left: 20rem;
+
+.grupo1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 50px auto;
+  font-size: 2rem;
+  text-align: center;
+  max-width: 90%;
 }
-.textotemplate{
+
+.titulo1 {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.textotemplate {
   font-size: 1.5rem;
   max-width: 65ch;
+  margin: 0 auto;
 }
-.introducao{
+
+.introducao {
   display: flex;
   justify-content: center;
 }
-.titulo2{
- display: flex;
- justify-content: center;
-    font-size: 3rem;
-    margin-top: 15rem;
-}
-.tituloDesco{
-    display: flex;
-    justify-content: center;
-    font-size: 3rem;
 
+.titulo2, .tituloDesco, .tituloVaci {
+  display: flex;
+  justify-content: center;
+  font-size: 3rem;
+  margin: 50px 0;
+  text-align: center;
 }
-.undertext{
-     display: flex;
-     justify-content: center;
-    font-size: 1.3rem;
-    max-width: 65ch;
-    margin-left: 16rem;
+
+.undertext {
+  display: flex;
+  justify-content: center;
+  font-size: 1.3rem;
+  max-width: 65ch;
+  margin: 0 auto;
+  text-align: center;
 }
-.red{
-    color: rgb(82, 3, 3);
+
+.red {
+  color: rgb(82, 3, 3);
 }
-.segundaparte{
-    display: flex;
-    justify-content: center;
+
+.segundaparte {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.imagensgrupo1 {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.imagemvacinas, .imagemvacina2 {
+  margin-top: 2rem;
+  width: 100%;
+  max-width: 45%;
+}
+
+.balbino {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  max-width: 120ch;
+  margin: 0 auto;
+}
+
+.titulobalbino {
+  font-size: 2.3rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.imagemcalendario {
+  width: 100%;
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+footer {
+  margin-top: 8rem;
+  background-color: #000000;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.footertext {
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .grupo1 {
+    margin-top: 4rem;
+    padding: 2rem;   
+    font-size: 1.2rem;
+    gap: 1.5rem;  
+  }
+
+  .titulo1, .titulobalbino, .undertext {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem; /* Mais espaço acima */
+    text-align: center;
+    line-height: 1.8; /* Maior espaçamento entre linhas */
+  }
+
+  .imagensgrupo1 {
     flex-direction: column;
-    margin-top: 3rem;
-}
-.imagensgrupo1{
-    display: flex;
-    justify-content: space-around;
-}
-.imagemvacinas{
-    margin-top: 2rem;
-    width: 40%;
-}
-.imagemvacina2{
-    width: 40%;
-}
-.tituloVaci{ 
-    display: flex;
-    justify-content: center;
-    margin-top: 10rem;
-    font-size: 3rem;
-}
+    align-items: center;
+    gap: 2rem; /* Espaçamento maior entre imagens */
+  }
 
-/* Acho que tá claro que é da babino né, acabou virando a base do projeto todo dessa tela aqui, os titulos e tals, me ajudem pfv eu não aguento mais*/
-.balbino{
-    display: flex;
+  .imagemvacinas, .imagemvacina2, .imagemcalendario {
+    width: 90%;
+    margin: 2rem auto; /* Mais espaçamento vertical */
+  }
+
+  footer {
     flex-direction: column;
-    justify-content: center;
-    width: 120ch;
-}
-.titulobalbino{
-    font-size: 2.3rem;
-    margin-left: 17rem;
-}
+    align-items: center;
+    margin-left: 0;
+    padding: 2rem 1rem;
+    gap: 1rem;
+  }
 
- /* a tal da vivh, não sei quem é mas algo me diz que é vitoria, complementa o da balbino*/
- 
- .imagemcalendario{
-    width: 50%;
-    margin-left: 20rem;
- }
- footer{
-    margin-top: 8rem;
-    margin-left: 2rem;
-    background-color: #000000;
-    display: flex;
-    justify-content: left;
- }
- .footertext{
-      font-size: 0.9rem;  
-      padding: 2px;  
+  .footertext {
+    padding: 4px;
+  }
+
+  .titulo2, .tituloDesco, .tituloVaci {
+    margin-top: 5rem;
+    font-size: 2.8rem;
+    line-height: 1;
+  }
 }
-
-/* apartir daqui, responsividade da tela completa, se vc está lendo isso, saiba que Deus foi quem guiou esse codigo, nem sei se vai funcionar de verdade, se sim, obrigado, assindao: mr robot */
-
