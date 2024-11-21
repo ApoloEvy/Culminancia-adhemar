@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+  }
+  body{
+    background-color: #0d1011;
+    font-family: "Roboto Slab";
+    }
+header{
+    background-color: #192428;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-between;
+    }
+    ul{
+    display: flex;
+    margin: 2px;
+    }
+    li{
+    list-style: none;
+    padding: 7px;
+    }
+    a{
+        text-decoration: none;
+    }
+    .cabecalho{
+      display: flex;
+      flex-direction: column;
+      margin-left: 22rem;
+      margin-top: 5rem;
+    }
+    .titulogrande{
+      font-size: 3rem;
+    }
+    .undertext{
+      width: 65ch;
+      margin-top: 1.2rem;
+      font-size: 1.1rem;
+    }
+    .devs{
+      margin-top: 5rem;
+      margin-left: 13rem;
+    }
+    .pesquisadores{
+      margin-top: 5rem;
+      margin-left: 13rem;
+    }
+    .lideresdoprojeto{
+      margin-top: 5rem;
+      margin-left: 13rem;
+    }

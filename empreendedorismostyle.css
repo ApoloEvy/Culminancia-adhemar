@@ -38,12 +38,12 @@ a:hover{
 }
 .introducao{
     margin-left: 8rem;
-    margin-top: 5rem;
+    margin-top: 4.5rem;
 }
 .titulotemplate{
-    font-size: 5rem;
+    font-size: 4rem;
     margin-left: 11rem;
-
+    
 }
 .undertext{
     margin-top: 1.5rem;
@@ -91,107 +91,8 @@ footer {
     justify-content: center;
     padding: 20px;
   }
-
+  
   .footertext {
     font-size: 0.9rem;
     text-align: center;
   }
-
-/* Telas menores que 1024px (tablets e dispositivos similares) */
-@media (max-width: 1024px) {
-  .lista{
-    display: none;
-  }
-    .introducao, .tiposdeempreendorismo, .investimento, .entidades {
-        margin-left: 2rem;
-        margin-right: 2rem;
-        text-align: center;
-    }
-
-    .titulotemplate, .titulotemplate2, .tituloinvest, .titulotemplate3 {
-        margin-left: 0;
-        font-size: 2.5rem;
-        text-align: center;
-    }
-
-    .undertext, .descricaotipos, .undertext2 {
-        width: 90%;
-        margin: 0 auto;
-        font-size: 1.2rem;
-    }
-
-    .imagem1, .imagem2 {
-        width: 80%;
-        margin: 0 auto;
-        display: block;
-    }
-
-    header {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-
-    ul {
-        flex-direction: column;
-    }
-
-    li {
-        padding: 5px 0;
-    }
-}
-
-/* Telas menores que 768px (smartphones) */
-@media (max-width: 768px) {
-  .lista{
-    display: none;
-  }
-  .titulotemplate{
-    margin-top: 4rem;
-    font-size: 5rem;
-  }
-  .undertext2{
-    margin-top: 2rem;
-  }
-  .texto1{
-    margin-top: 2rem;
-  }
-    .introducao, .tiposdeempreendorismo, .investimento, .entidades {
-        margin: 1rem;
-    }
-
-    .titulotemplate, .titulotemplate2, .tituloinvest, .titulotemplate3 {
-        font-size: 2rem;
-    }
-
-    .undertext, .descricaotipos, .undertext2 {
-        font-size: 1rem;
-    }
-
-    header {
-        padding: 10px;
-    }
-
-    .footertext {
-        font-size: 0.8rem;
-    }
-}
-
-/* Telas menores que 480px (smartphones pequenos) */
-@media (max-width: 480px) {
-    .titulotemplate, .titulotemplate2, .tituloinvest, .titulotemplate3 {
-        font-size: 1.8rem;
-    }
-
-    .undertext, .descricaotipos, .undertext2 {
-        font-size: 0.9rem;
-    }
-
-    .imagem1, .imagem2 {
-        width: 100%;
-    }
-
-    footer {
-        padding: 10px;
-    }
-}
