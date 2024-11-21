@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+  }
+body{
+background-color: #0d1011;
+font-family: "Roboto Slab";
+}
+.Adhemar{
+font-size: 7;
+font-family: "Roboto Slab";
+}
+header{
+background-color: #192428;
+display: flex;
+align-items: center;
+padding: 20px;
+justify-content: space-between;
+}
+ul{
+display: flex;
+margin: 2px;
+}
+li{
+list-style: none;
+padding: 7px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: un;
+}
+.yellowline{
+    color: #cbd213;
+}
+.introducao{
+    margin-left: 8rem;
+    margin-top: 4.5rem;
+}
+.titulotemplate{
+    font-size: 4rem;
+    margin-left: 11rem;
+    
+}
+.undertext{
+    margin-top: 1.5rem;
+    width: 65ch;
+    margin-left: 3rem;
+    font-size: 1.5rem;
+}
+.titulotemplate2{
+    margin-left: 17rem;
+    font-size: 3rem;
+    margin-top: 8.7rem;
+}
+.descricaotipos{
+    margin-top: 1.3rem;
+    width: 65ch;
+    margin-left: 8.7rem;
+    font-size: 1.3rem;
+}
+.imagem1{
+    margin-left: 15rem;
+    width: 40%;
+}
+.tituloinvest{
+    margin-top: 2rem;
+    font-size: 1.7rem;
+    margin-left: 11rem;
+}
+.imagem2{
+    width: 70%;
+    margin-left: 5rem;
+}
+.undertext2{
+    margin-left: 5rem;
+    margin-top: 2rem;
+}
+.titulotemplate3{
+    margin-left: 5rem;
+    font-size: 2.7rem;
+    margin-top: 8.7rem;
+}
+footer {
+    margin-top: 8rem;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .footertext {
+    font-size: 0.9rem;
+    text-align: center;
+  }

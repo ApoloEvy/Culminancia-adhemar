@@ -1,196 +1,196 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  color: #fff;
-}
-
-html, body {
-  width: 100%;
-  height: 100%;
-  color: #fff;
-  background-color: #071013;
-  font-family: Montserrat, Arial, Helvetica, sans-serif;
-  font-weight: 700;
-}
-
-.Adhemar {
-  font-size: 7;
-  font-family: "Roboto Slab";
-}
-
-header {
-  background-color: #192428;
-  display: flex;
-  align-items: center;
-  padding: 20px;
-  justify-content: space-between;
-}
-
-ul {
-  display: flex;
-  gap: 10px;
-}
-
-li {
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-  color: #fff;
-}
-
-a:hover {
-  font-size: 1.3rem;
-  transition: 0.5s;
-}
-
-.grupo1 {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  margin: 50px auto;
-  font-size: 2rem;
-  text-align: center;
-  max-width: 90%;
-}
-
-.titulo1 {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.textotemplate {
-  font-size: 1.5rem;
-  max-width: 65ch;
-  margin: 0 auto;
-}
-
-.introducao {
-  display: flex;
-  justify-content: center;
-}
-
-.titulo2, .tituloDesco, .tituloVaci {
-  display: flex;
-  justify-content: center;
-  font-size: 3rem;
-  margin: 50px 0;
-  text-align: center;
-}
-
-.undertext {
-  display: flex;
-  justify-content: center;
-  font-size: 1.3rem;
-  max-width: 65ch;
-  margin: 0 auto;
-  text-align: center;
-}
-
-.red {
-  color: rgb(82, 3, 3);
-}
-
-.segundaparte {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  margin-top: 3rem;
-  text-align: center;
-}
-
-.imagensgrupo1 {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-  flex-wrap: wrap;
-}
-
-.imagemvacinas, .imagemvacina2 {
-  margin-top: 2rem;
-  width: 100%;
-  max-width: 45%;
-}
-
-.balbino {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 100%;
-  max-width: 120ch;
-  margin: 0 auto;
-}
-
-.titulobalbino {
-  font-size: 2.3rem;
-  margin: 0 auto;
-  text-align: center;
-}
-
-.imagemcalendario {
-  width: 100%;
-  max-width: 50%;
-  margin: 0 auto;
-}
-
-footer {
-  margin-top: 8rem;
-  background-color: #000000;
-  display: flex;
-  justify-content: center;
-  padding: 20px;
-}
-
-.footertext {
-  font-size: 0.9rem;
-  text-align: center;
-}
-
-/* Responsividade */
-@media (max-width: 768px) {
-  .grupo1 {
-    margin-top: 4rem;
-    padding: 2rem;   
-    font-size: 1.2rem;
-    gap: 1.5rem;  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
   }
-
-  .titulo1, .titulobalbino, .undertext {
+  
+  html, body {
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    background-color: #071013;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    font-weight: 700;
+  }
+  
+  .Adhemar {
+    font-size: 7;
+    font-family: "Roboto Slab";
+  }
+  
+  header {
+    background-color: #192428;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-between;
+  }
+  
+  ul {
+    display: flex;
+    gap: 10px;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  a:hover {
+    font-size: 1.3rem;
+    transition: 0.5s;
+  }
+  
+  .grupo1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 50px auto;
+    font-size: 2rem;
+    text-align: center;
+    max-width: 90%;
+  }
+  
+  .titulo1 {
     margin-left: auto;
     margin-right: auto;
-    margin-top: 2rem; /* Mais espaço acima */
-    text-align: center;
-    line-height: 1.8; /* Maior espaçamento entre linhas */
   }
-
-  .imagensgrupo1 {
-    flex-direction: column;
-    align-items: center;
-    gap: 2rem; /* Espaçamento maior entre imagens */
+  
+  .textotemplate {
+    font-size: 1.5rem;
+    max-width: 65ch;
+    margin: 0 auto;
   }
-
-  .imagemvacinas, .imagemvacina2, .imagemcalendario {
-    width: 90%;
-    margin: 2rem auto; /* Mais espaçamento vertical */
+  
+  .introducao {
+    display: flex;
+    justify-content: center;
   }
-
-  footer {
-    flex-direction: column;
-    align-items: center;
-    margin-left: 0;
-    padding: 2rem 1rem;
-    gap: 1rem;
-  }
-
-  .footertext {
-    padding: 4px;
-  }
-
+  
   .titulo2, .tituloDesco, .tituloVaci {
-    margin-top: 5rem;
-    font-size: 2.8rem;
-    line-height: 1;
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    margin: 50px 0;
+    text-align: center;
   }
-}
+  
+  .undertext {
+    display: flex;
+    justify-content: center;
+    font-size: 1.3rem;
+    max-width: 65ch;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .red {
+    color: rgb(82, 3, 3);
+  }
+  
+  .segundaparte {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 3rem;
+    text-align: center;
+  }
+  
+  .imagensgrupo1 {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .imagemvacinas, .imagemvacina2 {
+    margin-top: 2rem;
+    width: 100%;
+    max-width: 45%;
+  }
+  
+  .balbino {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    max-width: 120ch;
+    margin: 0 auto;
+  }
+  
+  .titulobalbino {
+    font-size: 2.3rem;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .imagemcalendario {
+    width: 100%;
+    max-width: 50%;
+    margin: 0 auto;
+  }
+  
+  footer {
+    margin-top: 8rem;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .footertext {
+    font-size: 0.9rem;
+    text-align: center;
+  }
+  
+  /* Responsividade */
+  @media (max-width: 768px) {
+    .grupo1 {
+      margin-top: 4rem;
+      padding: 2rem;   
+      font-size: 1.2rem;
+      gap: 1.5rem;  
+    }
+  
+    .titulo1, .titulobalbino, .undertext {
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 2rem; /* Mais espaço acima */
+      text-align: center;
+      line-height: 1.8; /* Maior espaçamento entre linhas */
+    }
+  
+    .imagensgrupo1 {
+      flex-direction: column;
+      align-items: center;
+      gap: 2rem; /* Espaçamento maior entre imagens */
+    }
+  
+    .imagemvacinas, .imagemvacina2, .imagemcalendario {
+      width: 90%;
+      margin: 2rem auto; /* Mais espaçamento vertical */
+    }
+  
+    footer {
+      flex-direction: column;
+      align-items: center;
+      margin-left: 0;
+      padding: 2rem 1rem;
+      gap: 1rem;
+    }
+  
+    .footertext {
+      padding: 4px;
+    }
+  
+    .titulo2, .tituloDesco, .tituloVaci {
+      margin-top: 5rem;
+      font-size: 2.8rem;
+      line-height: 1;
+    }
+  }
