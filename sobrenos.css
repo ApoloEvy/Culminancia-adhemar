@@ -52,3 +52,52 @@ header{
       margin-top: 5rem;
       margin-left: 13rem;
     }
+    @media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    ul {
+        flex-direction: column;
+        align-items: center;
+        margin: 5px 0;
+    }
+
+    li {
+        padding: 5px;
+    }
+
+    .cabecalho {
+        margin: 2rem auto;
+        text-align: center;
+    }
+
+    .titulogrande {
+        font-size: 2rem;
+    }
+
+    .undertext {
+        width: auto;
+        margin: 1rem;
+        font-size: 1rem;
+        text-align: justify;
+    }
+
+    .devs, .pesquisadores, .lideresdoprojeto {
+        margin: 2rem auto;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .titulogrande {
+        font-size: 1.5rem;
+    }
+
+    .undertext {
+        font-size: 0.9rem;
+    }
+}
+
